@@ -2,7 +2,7 @@ package chi.edu.ex3_simplesumapp;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.EditText;3
+import android.widget.EditText;
 
 
 import androidx.activity.EdgeToEdge;
