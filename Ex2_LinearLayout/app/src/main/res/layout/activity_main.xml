@@ -5,13 +5,12 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:orientation="vertical"
     android:gravity="center|top"
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/nutso1"
+        android:id="@+id/btn1"
         android:text="NÚT SỐ 1"
         android:textSize="20dp"
         android:textColor="@android:color/holo_orange_dark"
@@ -22,24 +21,23 @@
     </Button>
 
     <Button
-        android:id="@+id/nutso2"
+        android:id="@+id/btn2"
         android:text="NÚT SỐ 2"
         android:textSize="20dp"
-        android:textColor="@color/design_default_color_error"
+        android:textColor="@android:color/holo_orange_dark"
         android:background="@color/material_dynamic_primary20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp">
     </Button>
-
     <Button
-        android:id="@+id/nutso3"
-        android:text="NÚT SỐ 3"
-        android:textSize="20dp"
-        android:textColor="@color/white"
-        android:background="@color/material_dynamic_primary20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp">
-    </Button>
+    android:id="@+id/btn3"
+    android:text="NÚT SỐ 3"
+    android:textSize="20dp"
+    android:textColor="@android:color/holo_orange_dark"
+    android:background="@color/material_dynamic_primary20"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="100dp">
+</Button>
 </LinearLayout>
