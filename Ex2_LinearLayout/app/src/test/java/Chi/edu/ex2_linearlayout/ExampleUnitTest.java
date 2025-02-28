@@ -1,4 +1,4 @@
-package Chi.edu.ex2_linearlayout;
+package chi.edu.ex2_linearlayout;
 
 import org.junit.Test;
 

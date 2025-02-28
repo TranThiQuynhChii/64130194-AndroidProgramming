@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "Chi.edu.ex2_linearlayout"
+    namespace = "chi.edu.ex2_linearlayout"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "Chi.edu.ex2_linearlayout"
+        applicationId = "chi.edu.ex2_linearlayout"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

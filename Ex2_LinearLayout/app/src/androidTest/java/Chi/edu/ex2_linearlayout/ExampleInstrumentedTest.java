@@ -1,4 +1,4 @@
-package Chi.edu.ex2_linearlayout;
+package chi.edu.ex2_linearlayout;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("Chi.edu.ex2_linearlayout", appContext.getPackageName());
+        assertEquals("chi.edu.ex2_linearlayout", appContext.getPackageName());
     }
 }

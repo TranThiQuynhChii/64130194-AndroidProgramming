@@ -1,4 +1,4 @@
-package Chi.edu.ex2_linearlayout;
+package chi.edu.ex2_linearlayout;
 
 import android.os.Bundle;
 
