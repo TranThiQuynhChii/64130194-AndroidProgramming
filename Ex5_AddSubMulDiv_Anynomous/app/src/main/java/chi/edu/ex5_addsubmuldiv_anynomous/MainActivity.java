@@ -12,11 +12,16 @@ public class MainActivity extends AppCompatActivity {
     EditText edtS1;
     EditText edtS2;
     EditText edtKQ;
+
+    Button nutCong,nutTru,nutNhan,nutChia;
     void TimDieuKhien(){
         edtS1 = findViewById(R.id.edtSo1);
         edtS2 = findViewById(R.id.edtSo2);
         edtKQ = findViewById(R.id.edtKetQua);
-
+        nutCong = findViewById(R.id.btnCong);
+        nutTru = findViewById(R.id.btnTru);
+        nutNhan = findViewById(R.id.btnNhan);
+        nutChia = findViewById(R.id.btnChia);
     }
 
     @Override
@@ -24,11 +29,36 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TimDieuKhien();
-
+        //Gan bo lang nghe su kien va code xu ly cho tung nut
+        View.OnClickListener boLAngNgheCong = new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                XuLyCong();
+            }
+        };
+        nutCong.setOnClickListener(boLAngNgheCong);
+        nutTru.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                XuLyTru();
+            }
+        });
+        nutNhan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                XuLyNhan();
+            }
+        });
+        nutChia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                XuLyChia();
+            }
+        });
     }
 
     //Xử lý cộng
-    public void XuLyCong(View view) {
+   void XuLyCong() {
         //Bước 1: Lấy dữ liệu
         //Bước 1.1: Tìm và Tham chiếu dữ liệu
 
@@ -50,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //Xử lý trừ
-    public void XuLyTru(View view) {
+    void XuLyTru() {
         //Bước 1: Lấy dữ liệu
         //Bước 1.1: Tìm và Tham chiếu dữ liệu
 
@@ -72,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //Xử lý nhân
-    public void XuLyNhan(View view) {
+    void XuLyNhan() {
         //Bước 1: Lấy dữ liệu
         //Bước 1.1: Tìm và Tham chiếu dữ liệu
 
@@ -94,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //Xử lý chia
-    public void XuLyChia(View view) {
+    void XuLyChia() {
         //Bước 1: Lấy dữ liệu
         //Bước 1.1: Tìm và Tham chiếu dữ liệu
 
