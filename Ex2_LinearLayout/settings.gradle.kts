@@ -19,6 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Ex2_Linearlayout"
+rootProject.name = "Ex2_LinearLayout"
 include(":app")
- 

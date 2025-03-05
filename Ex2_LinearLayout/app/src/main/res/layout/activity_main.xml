@@ -7,38 +7,35 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center|top"
-    app:layoutDescription="@xml/activity_main_scene"
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/btn1"
+        android:id="@+id/nuts01"
         android:text="NÚT SỐ 1"
-        android:textSize="20dp"
-        android:textColor="@android:color/holo_orange_dark"
-        android:background="@color/material_dynamic_primary20"
+        android:textSize="20sp"
+        android:textColor="#108BF4"
+        android:background="#9455C8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp">
-    </Button>
-
+        android:layout_marginTop="20dp"/>
     <Button
-        android:id="@+id/btn2"
+        android:id="@+id/nuts02"
         android:text="NÚT SỐ 2"
-        android:textSize="20dp"
-        android:textColor="@android:color/holo_orange_dark"
-        android:background="@color/material_dynamic_primary20"
+        android:textSize="20sp"
+        android:textColor="#108BF4"
+        android:background="#9455C8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp">
-    </Button>
+        android:layout_marginTop="20dp"/>
     <Button
-        android:id="@+id/btn3"
+        android:id="@+id/nuts03"
         android:text="NÚT SỐ 3"
-        android:textSize="20dp"
-        android:textColor="@android:color/holo_orange_dark"
-        android:background="@color/material_dynamic_primary20"
+        android:textSize="20sp"
+        android:textColor="#108BF4"
+        android:background="#9455C8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp">
-    </Button>
+        android:layout_marginTop="20dp"/>
+
+
 </LinearLayout>
