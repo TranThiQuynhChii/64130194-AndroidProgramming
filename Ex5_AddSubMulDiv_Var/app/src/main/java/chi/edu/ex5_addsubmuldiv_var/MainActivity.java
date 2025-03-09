@@ -22,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
         TimView();
         }
         //gan cac bo lang nghe
-        btnCong.setOnClickListener(boLa)
+        btnCong.setOnClickListener(boLangNghe_XULyCong);
+        btnTru.set
 
         //-----------------------------------
         //Tao cac bo nghe va xu ly su kien
