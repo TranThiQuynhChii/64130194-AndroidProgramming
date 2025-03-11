@@ -5,4 +5,31 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MÀN HÌNH CHÍNH Ở ĐÂY"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="20dp"/>
+
+    <Button
+        android:id="@+id/btnMH2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Màn hình 2"
+        />
+    <Button
+        android:id="@+id/btnMH3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Màn hình 3"
+        />
+
+
+
+
+</LinearLayout>
