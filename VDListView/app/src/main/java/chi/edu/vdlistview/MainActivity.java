@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        listViewNNLT = findViewById(R.id.NNLT);
+        listViewNNLT = findViewById(R.id.vdNNLT);
         dsNgonNguLT = new ArrayList<String>();
         dsNgonNguLT.add("Python");
         dsNgonNguLT.add("Java");
