@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@color/purple"
+    android:background="@drawable/loginbkg"
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
@@ -38,31 +38,31 @@
                 android:textColor="@color/purple"/>
 
             <EditText
+                android:id="@+id/username"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:id="@+id/username"
+                android:layout_marginTop="40dp"
                 android:background="@drawable/custom_edittext"
-                android:drawableLeft="@color/black"
+                android:drawableLeft="@drawable/user"
                 android:drawablePadding="8dp"
                 android:hint="Username"
                 android:padding="8dp"
                 android:textColor="@color/black"
-                android:textColorHighlight="@color/cardview_dark_background"
-                android:layout_marginTop="40dp"/>
+                android:textColorHighlight="@color/cardview_dark_background" />
 
             <EditText
+                android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:id="@+id/password"
+                android:layout_marginTop="20dp"
                 android:background="@drawable/custom_edittext"
-                android:drawableLeft="@color/cardview_dark_background"
+                android:drawableLeft="@drawable/lock"
                 android:drawablePadding="8dp"
                 android:hint="Password"
-                android:padding="8dp"
                 android:inputType="textPassword"
+                android:padding="8dp"
                 android:textColor="@color/black"
-                android:textColorHighlight="@color/cardview_dark_background"
-                android:layout_marginTop="20dp"/>
+                android:textColorHighlight="@color/cardview_dark_background" />
 
             <Button
                 android:layout_width="match_parent"
