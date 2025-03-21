@@ -27,7 +27,7 @@
             android:layout_marginTop="1dp"
             android:textColor="@color/design_default_color_error"
             android:paddingLeft="10dp"
-            android:hint="Mời nhập số "/>
+            android:hint=" Mời nhập số "/>
     </LinearLayout>
 
     <LinearLayout
