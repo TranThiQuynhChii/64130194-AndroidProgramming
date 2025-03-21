@@ -13,10 +13,9 @@ public class MainActivity extends AppCompatActivity {
     EditText edtS2;
     EditText edtKQ;
     void TimDieuKhien(){
-        edtS1 = findViewById(R.id.edtSo1);
-        edtS2 = findViewById(R.id.edtSo2);
-        edtKQ = findViewById(R.id.edtKetQua);
-
+        edtS1 = findViewById(R.id.edtS1);
+        edtS2 = findViewById(R.id.edtS2);
+        edtKQ = findViewById(R.id.edtKQ);
     }
 
     @Override
