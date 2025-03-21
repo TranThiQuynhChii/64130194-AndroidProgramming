@@ -105,12 +105,12 @@ public class MainActivity extends AppCompatActivity {
 
         public void TimView(){
             //Tim view
-            edtSoA = (EditText) findViewById(R.id.editTextA);
-            edtSoB = (EditText) findViewById(R.id.editTextB);
-            btnCong = (Button) findViewById(R.id.buttonCong);
-            btnTru = (Button) findViewById(R.id.buttonTru);
-            btnNhan = (Button) findViewById(R.id.buttonNhan);
-            btnChia = (Button) findViewById(R.id.buttonChia);
+            edtSoA = (EditText) findViewById(R.id.edtTextA);
+            edtSoB = (EditText) findViewById(R.id.edtTextB);
+            btnCong = (Button) findViewById(R.id.btnCong);
+            btnTru = (Button) findViewById(R.id.btnTru);
+            btnNhan = (Button) findViewById(R.id.btnNhan);
+            btnChia = (Button) findViewById(R.id.btnChia);
             tvKQ = (TextView)  findViewById(R.id.tvKQ);
         }
     //khai bao ca doi tuong tuong ung voi cac dieu khien (view) can thao tac
