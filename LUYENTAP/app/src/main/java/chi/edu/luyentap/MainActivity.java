@@ -18,14 +18,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-        //Tim dieu kien
-        Button btnNutnhan = (Button) findViewById(R.id.btn);
+        //Tim dk
+        Button btnNhan = (Button) findViewById(R.id.btn);
         //su kien
-        btnNutnhan.setOnClickListener(new View.OnClickListener() {
+        btnNhan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //lenh xu ly o day
-                Intent imain = new Intent(MainActivity.this,MainActivity2.class);
+                //xu ly lenh o day
+                Intent imain = new Intent(MainActivity.this, MainActivity2.class);
                 startActivity(imain);
             }
         });
