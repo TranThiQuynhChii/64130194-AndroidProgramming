@@ -29,5 +29,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(icau1);
             }
         });
+        //tim dk
+        Button btnS2 = (Button) findViewById(R.id.btnS2);
+        //su kien
+        btnS1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //lenh xu ly o day
+                Intent icau2 = new Intent(MainActivity.this,ActivityCau2.class);
+                startActivity(icau2);
+            }
+        });
     }
 }
