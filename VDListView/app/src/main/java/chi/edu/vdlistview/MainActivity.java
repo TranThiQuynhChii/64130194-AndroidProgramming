@@ -32,8 +32,7 @@ public class MainActivity extends AppCompatActivity {
         dsNgonNguLT.add("C#");
 
         ArrayAdapter<String> adapterNNLT = new ArrayAdapter<>(
-                this,
-                android.R.layout.simple_list_item_1,
+                this, android.R.layout.simple_list_item_1,
                 dsNgonNguLT
         );
         listViewNNLT.setAdapter(adapterNNLT);
