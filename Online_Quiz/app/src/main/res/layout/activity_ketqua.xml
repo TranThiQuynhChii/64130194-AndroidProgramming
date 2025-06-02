@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="24dp"
-    android:background="#FFFFFF">
+    android:background="@drawable/background">
 
     <TextView
         android:id="@+id/tvTitle"
@@ -31,20 +31,32 @@
         android:layout_height="wrap_content"
         android:text="Điểm: 0"
         android:textSize="20dp"
-        android:layout_marginBottom="32dp" />
+        android:layout_marginBottom="16dp" />
+
+    <!-- TextView hiển thị thông điệp cá nhân -->
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18dp"
+        android:textColor="#444444"
+        android:layout_marginBottom="32dp"
+        android:gravity="center" />
 
     <Button
         android:id="@+id/btnRetry"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:text="Làm lại" />
+        android:text="🔁 Làm lại"
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/btnHome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Trang chính"
-        android:textSize="20dp"
+        android:text="🏠 Về trang chính"
+        android:textSize="18sp"
         android:layout_marginTop="16dp"/>
+
 </LinearLayout>

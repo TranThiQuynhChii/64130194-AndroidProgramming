@@ -55,7 +55,6 @@ public class ExamActivity extends AppCompatActivity {
             }
         });
     }
-
     private void openQuiz(String mode) {
         Intent intent = new Intent(this, QuizActivity.class);
         intent.putExtra("mode", mode);

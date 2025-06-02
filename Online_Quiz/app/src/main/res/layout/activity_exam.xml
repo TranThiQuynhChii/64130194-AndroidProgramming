@@ -2,13 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:gravity="center"
-    android:padding="30dp"
+    android:padding="35dp"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
 
     <TextView
         android:text="Chọn đề thi"
-        android:textSize="22sp"
+        android:textSize="25sp"
         android:textStyle="bold"
         android:layout_marginBottom="30dp"
         android:layout_width="wrap_content"
@@ -18,29 +19,39 @@
         android:id="@+id/btnDe1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="18dp"
         android:text="Đề thi 1" />
 
     <Button
         android:id="@+id/btnDe2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="18dp"
         android:text="Đề thi 2" />
 
     <Button
         android:id="@+id/btnDe3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="18dp"
         android:text="Đề thi 3 " />
 
     <Button
         android:id="@+id/btnDe4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="18dp"
         android:text="Đề thi 4" />
 
     <Button
         android:id="@+id/btnDe5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="18dp"
         android:text="Đề thi 5" />
 </LinearLayout>
